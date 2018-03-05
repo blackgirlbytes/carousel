@@ -1,0 +1,124 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Poppins', sans-serif;
+     letter-spacing: 0.4em;
+     background-color: white;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width:100%;
+	margin: auto;
+
+}
+
+
+header >img {
+width:100%;
+height:550px;
+
+}
+
+
+
+
+#main{
+  width:90%;
+  height:auto;
+  margin-left: 5%;
+  margin-right: 5%
+}
+#main:hover, #next:hover, #back:hover, img:hover{
+  opacity: .8;
+}
+section + section{
+  background-color:#FFC96D;
+  border: 1px solid #FFC96D;
+  border-radius:10px; 
+  height: 120px;
+  width: 100%;
+}
+.test{
+width: 10%;
+height:auto;
+margin-left: 3%;
+margin-top: 20px;
+}
+
+#firstBigImg{
+  margin-left: 4%;
+}
+
+#next , #back{
+  background-color:#5270FF;
+  font-weight:700;
+  color: white;
+  height:40px;
+  width: 100px;
+  border: none;
+  position:relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#back{
+  margin-left: 5%;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
